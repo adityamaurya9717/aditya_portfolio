@@ -1,0 +1,49 @@
+<div>
+    <!-- ME-->
+    <div class="div-container">
+        <div class="split left" >
+            <h1 style="font-size:70px;color:blueviolet;"> I am Aditya Maurya .</h1>
+            <h2 style="font-size:50px;color:#593993;">A Software Engineer</h2>
+            
+        </div>
+        <div class="split right">
+             <img class="img-container" src="/assets/image.png"/> 
+        </div>
+
+    </div>
+
+
+    <!--TOP SKILLS-->
+    <div>
+        <h1 style="text-align:center">Techincal SKILLS</h1>
+        <div class="skill-dev-container">
+            <div class="skills-box" *ngFor="let data of skills">
+                <h2 style="text-align:center"> {{data.name}}</h2>
+                <div style="margin-left:10px">
+                    <span *ngFor="let x of [].constructor(totalRating); let i = index">
+                        <span class="dot" *ngIf="i<data.rate;else other_content"></span>
+                        <ng-template #other_content><span class="dot" style="background-color:lightcoral"></span>
+                        </ng-template>
+                    </span>
+                    <div style="margin-top: 10px;">
+                         Use Case : {{data.useCase}}
+                    </div>
+                </div>
+                <!-- <span style="margin-right:3px;" *ngFor="let x of [].constructor(data.rate);" >*</span> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Interests-->
+    <div class="interest-container" >
+        <h1 style="text-align:center">Language Known</h1>
+        <div>
+            <h3>English</h3>
+            <h3>Hindi</h3>
+        </div>
+
+    </div>
+
+
+</div>
