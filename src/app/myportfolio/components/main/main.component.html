@@ -4,10 +4,10 @@
         <div class="split left" >
             <h1 style="font-size:70px;color:blueviolet;"> I am Aditya Maurya .</h1>
             <h2 style="font-size:50px;color:#593993;">A Software Engineer</h2>
-            
+            <h1 style="font-size:90px;color:grey"> What I Do,  Scroll Down</h1>
         </div>
         <div class="split right">
-             <img class="img-container" src="/assets/image.png"/> 
+             <img  class="img-container centered" src="/assets/image.jpeg"/> 
         </div>
 
     </div>
@@ -15,7 +15,7 @@
 
     <!--TOP SKILLS-->
     <div>
-        <h1 style="text-align:center">Techincal SKILLS</h1>
+        <h1 class="text-shadow" style="text-align:center">Techincal SKILLS</h1>
         <div class="skill-dev-container">
             <div class="skills-box" *ngFor="let data of skills">
                 <h2 style="text-align:center"> {{data.name}}</h2>
@@ -35,15 +35,53 @@
         </div>
     </div>
 
+    <!-- Work Experience -->
+
+    <div class="workexperience-container">
+        <h1 class="text-shadow">Experience</h1>
+         <!-- for company 1-->
+        <div>
+            <h1 style="font-weight:bolder">SoftWare Engineer</h1>
+            <h3>Moglix . Full-time</h3>
+             <h4>Full Time</h4>
+            <h4> Sep 2022 - Present  Noida Uttar Pradesh , India</h4>
+            <h4> Noida Uttar Pradesh , India</h4>
+            <div>
+              <strong>Skills : Spring Boot , Spring Data Jpa,Mysql ,Redis , Kafka , MSServer,
+                Java , Angular,System Design , Data Base Design
+              </strong>
+            </div>
+
+        </div>
+
+    </div>
+
     <!-- Interests-->
     <div class="interest-container" >
-        <h1 style="text-align:center">Language Known</h1>
+        <h1 class="text-shadow">Language Known</h1>
         <div>
-            <h3>English</h3>
+            <section>
+                <h3>English</h3>
+                <h4>Professional working proficiency</h4>
+            </section>
+            <h3>Hindi</h3>
+            <h4>Professional working proficiency</h4>
+            <section>
+                </section>
             <h3>Hindi</h3>
         </div>
 
     </div>
 
+    <!--  EDUCATION-->
+      <div class="education-container">
+        <h1 class="text-shadow">Education</h1>
+        <div>
+         <h2>Sharda University</h2>   
+         <h3>Bachelor Of Technology - BTech , Computer Science </h3>
+         <h4> 2016 - 2020</h4>
+        </div>
+      </div>
+    
 
 </div>

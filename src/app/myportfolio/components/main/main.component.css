@@ -48,6 +48,8 @@
     justify-content:align-items;
     align-items: center;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 5px;
+
 }
 .skills-box{
     width: 200px;
@@ -64,3 +66,34 @@
     border-radius: 50%;
     display: inline-block;
   }
+  .workexperience-container{
+    width: 100%;
+  padding:7px;
+  box-shadow: 5px 5px 5px;
+  }
+  .workexperience-container > div{
+    padding: 5px;
+    border: 2px solid grey;
+  }
+
+  .interest-container{
+    width: 100%;
+  padding:7px;
+  box-shadow: 5px 5px 5px;
+  }
+
+.education-container{
+  width: 100%;
+  padding:7px;
+  box-shadow: 5px 5px 5px;
+}
+.education-container>div{
+
+
+}
+.text-shadow{
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px ;
+  text-decoration: underline;
+}
