@@ -4,16 +4,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MainComponent } from './components/main/main.component';
+import { GithubprojectComponent } from './components/githubproject/githubproject.component';
 
 const routes: Routes = [
   {
     path:'',
     component:HeaderComponent,
     children:[
-      {
-        path:'',
-        component:MainComponent,
-      },
+      
       {
         path:'about',
         component:AboutComponent,
@@ -21,7 +19,16 @@ const routes: Routes = [
       {
         path:'contact',
         component:ContactComponent
-      }
+      },
+      {
+        path:'github',
+        component:GithubprojectComponent
+      },
+      {
+        path:'',
+        component:MainComponent,
+        pathMatch:'full'
+      },
     ]
   }
 ];

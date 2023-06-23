@@ -30,6 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    border-radius: 50%;
   }
   
   .centered img {
@@ -70,6 +71,8 @@
     width: 100%;
   padding:7px;
   box-shadow: 5px 5px 5px;
+  background-color:gray;
+
   }
   .workexperience-container > div{
     padding: 5px;
@@ -80,12 +83,14 @@
     width: 100%;
   padding:7px;
   box-shadow: 5px 5px 5px;
+
   }
 
 .education-container{
   width: 100%;
   padding:7px;
   box-shadow: 5px 5px 5px;
+  background-color:gray;
 }
 .education-container>div{
 
@@ -96,4 +101,10 @@
   font-size: 50px;
   text-shadow: 2px 2px 2px ;
   text-decoration: underline;
+}
+
+
+
+.education-container:hover,.workexperience-container:hover{
+  background-color:grey
 }

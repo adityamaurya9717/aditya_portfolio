@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MainComponent } from './components/main/main.component';
+import { GithubprojectComponent } from './components/githubproject/githubproject.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MainComponent } from './components/main/main.component';
     HeaderComponent,
     AboutComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
+    GithubprojectComponent
   ],
   imports: [
     CommonModule,

@@ -10,43 +10,43 @@ export class MainComponent implements OnInit {
   skills=[
     {
       name:"Data Structure And Alogrithm",
-      rate:5,
+      rate:8,
       useCase:"Logical Ability"
     },
     {
     name:"Java",
-    rate: 4,
+    rate: 10,
     useCase:"Programming"
 
    },
    {
     name:"Spring Boot",
-    rate:5,
+    rate:10,
     useCase:"Backend Server"
 
    }
    ,
    {
     name:"Kafka Server",
-    rate:5,
+    rate:8,
     useCase:"Data Stream Pipeline"
  
    },
    {
     name:"Spring Data JPA",
-    rate:5,
+    rate:10,
     useCase:"Persistance API"
 
    },
    {
     name:"MySQL",
-    rate:5,
+    rate:9,
     useCase:"DataBase"
 
    },
    {
     name:"Redis",
-    rate:5,
+    rate:9,
     useCase:"Cache for fast retrival"
 
    },
@@ -54,6 +54,11 @@ export class MainComponent implements OnInit {
     name:"Angular",
     rate:5,
     useCase:"FrontEnd FrameWork"
+   },
+   {
+    name:"JavaScript",
+    rate:8,
+    useCase:"Scripting Language"
  
    }
 ]
